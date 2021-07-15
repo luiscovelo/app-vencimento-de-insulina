@@ -42,7 +42,7 @@ class CadastrarInsulinaController {
     if (form!.validate()) {
       try {
         totalDoses = (insulina.mililitro! * insulina.uiMililitro!);
-        totalDeAplicacoes = totalDoses / 10;
+        totalDeAplicacoes = totalDoses / insulina.uiDiario!.toDouble();
         dataVencimento = DateTime(
           insulina.dataAbertura!.year,
           insulina.dataAbertura!.month,
