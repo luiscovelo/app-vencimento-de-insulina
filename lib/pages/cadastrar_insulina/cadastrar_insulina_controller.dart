@@ -2,11 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:uuid/uuid.dart';
 import 'package:vencimento_de_insulina/models/insulina_model.dart';
 import 'package:vencimento_de_insulina/repositories/insulina_repository.dart';
+import 'package:vencimento_de_insulina/shared/state_app/state_app.dart';
 
 class CadastrarInsulinaController {
   final formKey = GlobalKey<FormState>();
   final repository = InsulinaRepository();
   InsulinaModel insulina = InsulinaModel();
+
+  final state = ValueNotifier<StateApp>(StateApp.start);
 
   void onChange({
     String? nome,
@@ -35,6 +38,7 @@ class CadastrarInsulinaController {
     double totalDeAplicacoes = 0;
     DateTime dataVencimento;
 
+    state.value = StateApp.loading;
     if (form!.validate()) {
       try {
         totalDoses = (insulina.mililitro! * insulina.uiMililitro!);
@@ -50,11 +54,14 @@ class CadastrarInsulinaController {
         insulina.dataVencimento = dataVencimento;
 
         await repository.cadastrar(insulina);
+        state.value = StateApp.success;
 
         Navigator.pushReplacementNamed(context, "/home");
       } catch (e) {
         print(e.toString());
       }
+    } else {
+      state.value = StateApp.start;
     }
   }
 }
