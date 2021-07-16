@@ -132,12 +132,22 @@ class _MinhasInsulinasListPageState extends State<MinhasInsulinasListPage> {
                                     ),
                                   ),
                                 ),
-                                trailing: Text(
-                                  controller.formatarData(item.dataAbertura) +
-                                      " ->",
-                                  style: GoogleFonts.inter(
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.w300,
+                                trailing: Container(
+                                  width: 102,
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    children: [
+                                      Text(
+                                        controller
+                                            .formatarData(item.dataAbertura),
+                                        style: GoogleFonts.inter(
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.w300,
+                                        ),
+                                      ),
+                                      Icon(Icons.navigate_next_outlined),
+                                    ],
                                   ),
                                 ),
                               ),
