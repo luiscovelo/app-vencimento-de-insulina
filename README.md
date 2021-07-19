@@ -1,16 +1,25 @@
-# vencimento_de_insulina
+# QuandoVence - Minhas insulinas
 
-A new Flutter project.
+Aplicativo criado com base numa necessidade pessoal de controlar o vencimento das insulinas, pois após aberta, normalmente possui 28 dias de validade, sendo necessário comprar outro mesmo que ainda haja medicamento.
 
-## Getting Started
+# Telas do app
 
-This project is a starting point for a Flutter application.
+![tela-1](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png)
+![tela-2](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png)
+![tela-3](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png)
+![tela-4](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Download
+
+Atualmente o aplicativo está "Em análise" na loja Google Play, assim que ficar disponível faça o download pelo link abaixo:
+
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.lfscovelo.vencimento_de_insulina)
+
+# Como rodar localmente?
+
+	- git clone git@github.com:luiscovelo/quandovence.git
+	- cd quandovence
+	- flutter pub get
+	- flutter run
