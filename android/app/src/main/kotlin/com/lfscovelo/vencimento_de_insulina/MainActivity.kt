@@ -1,4 +1,4 @@
-package com.example.vencimento_de_insulina
+package com.lfscovelo.vencimento_de_insulina
 
 import io.flutter.embedding.android.FlutterActivity
 

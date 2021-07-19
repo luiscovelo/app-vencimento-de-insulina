@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vencimento_de_insulina">
+    package="com.lfscovelo.vencimento_de_insulina">
    <application
         android:label="QuandoVence - Minhas insulinas"
         android:icon="@mipmap/ic_launcher">
