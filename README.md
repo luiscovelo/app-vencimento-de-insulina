@@ -2,13 +2,22 @@
 
 Aplicativo criado com base numa necessidade pessoal de controlar o vencimento das insulinas, pois após aberta, normalmente possui 28 dias de validade, sendo necessário comprar outro mesmo que ainda haja medicamento.
 
-# Telas do app
+# O aplicativo
 
-<img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png" width=192 height=342 />
-<img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png" width=192 height=342 />
-<img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png" width=192 height=342 />
-<img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png" width=192 height=342 />
-
+<table>
+  <tr>
+	 <td>Tela inicial</td>
+     <td>Tela de cadastro</td>
+     <td>Tela inicial com itens</td>
+	 <td>Tela de detalhes do item</td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png" width=192 height=342 /></td>
+    <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png" width=192 height=342 /></td>
+    <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png" width=192 height=342 /></td>
+	<td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png" width=192 height=342 /></td>
+  </tr>
+ </table>
 
 ## Download
 
