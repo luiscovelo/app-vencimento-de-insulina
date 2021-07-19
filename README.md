@@ -4,10 +4,10 @@ Aplicativo criado com base numa necessidade pessoal de controlar o vencimento da
 
 # Telas do app
 
-![tela-1](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png)
-![tela-2](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png)
-![tela-3](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png)
-![tela-4](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png)
+![tela-1](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png){:height="50%" width="50%"}
+![tela-2](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png){:height="50%" width="50%"}
+![tela-3](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png){:height="50%" width="50%"}
+![tela-4](https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png){:height="50%" width="50%"}
 
 
 
