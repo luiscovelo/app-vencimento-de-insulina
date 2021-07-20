@@ -15,13 +15,13 @@ Aplicativo criado com base numa necessidade pessoal de controlar o vencimento da
     <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-1.png" width=192 height=342 /></td>
     <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-2.png" width=192 height=342 /></td>
     <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-3.png" width=192 height=342 /></td>
-	<td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png" width=192 height=342 /></td>
+    <td><img src="https://raw.github.com/luiscovelo/quandovence/master/screenshots/tela-4.png" width=192 height=342 /></td>
   </tr>
  </table>
 
 ## Download
 
-Atualmente o aplicativo está "Em análise" na loja Google Play, assim que ficar disponível faça o download pelo link abaixo:
+O aplicativo está disponível na loja Google Play, faça o download pelo link abaixo:
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.lfscovelo.vencimento_de_insulina)
 
